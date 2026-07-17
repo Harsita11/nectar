@@ -21,7 +21,7 @@ export default async function DashboardPage() {
   const areas = areasData?.areas || [];
 
   return (
-    <div className="min-h-screen bg-stone-50 py-16 px-4">
+    <div className="min-h-screen bg-pink-50 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-5">
@@ -169,9 +169,7 @@ export default async function DashboardPage() {
             {areas.map((area, index) => (
               <Link
                 key={`${area.strArea}-${index}`}
-                href={`/recipes/cuisine/${area.strArea
-                  .toLowerCase()
-                  .replace(/\s+/g, "-")}`}
+                href={`/recipes/cuisine/${encodeURIComponent(area.strArea)}`}
               >
                 <div className="bg-stone-50 p-5 border-2 border-stone-200 hover:border-orange-600 hover:shadow-lg transition-all group cursor-pointer">
                   <div className="flex items-center gap-3">
