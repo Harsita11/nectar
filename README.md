@@ -1,31 +1,72 @@
 # 🍯 Nectar
 
-Nectar is an AI-powered recipe and meal planning platform designed to make cooking, nutrition, and grocery management simpler and more personalized.
+Nectar is an AI-powered cooking and meal planning platform designed to make everyday cooking smarter, easier, and more personalized.
 
-The platform combines recipe discovery with intelligent meal planning, nutrition tracking, pantry management, and an AI voice cooking assistant to create a complete kitchen companion.
+From discovering recipes and managing your pantry to planning meals and cooking with an AI voice assistant, Nectar brings essential kitchen tools together in one platform.
 
 ## ✨ Features
 
-### 🤖 AI Voice Cooking Assistant
-An interactive voice-based assistant that helps users while cooking by providing hands-free guidance, answering cooking-related questions, and assisting users through recipes step by step.
+### 🍽️ Recipe Discovery
 
-### 🥗 Nutrition Index
-Provides nutritional insights to help users better understand their meals and make more informed food choices.
+Explore a variety of recipes and discover new meals based on your preferences, available ingredients, and cooking needs.
 
-### 🛒 Smart Shopping List
-Automatically helps users organize the ingredients they need for their recipes and meal plans into a convenient shopping list.
+### ❤️ My Saved Recipes
+
+Create your personal collection of favorite recipes.
+
+Users can save recipes they love and build their own personalized digital cookbook.
 
 ### 📅 Meal Planner
-Plan meals in advance and organize recipes for different days to make meal preparation easier and more efficient.
 
-### 🥫 Pantry Management
-Keep track of ingredients available in your pantry and use them to discover suitable recipes while reducing food waste.
+Plan your meals for the week and organize your cooking schedule.
 
-### 🍽️ Recipe Discovery
-Browse and explore a variety of recipes through a clean and user-friendly interface.
+Nectar also allows users to generate a shopping list from their meal plan with a single click.
 
-### 📱 Responsive Design
-Designed to provide a smooth experience across different screen sizes and devices.
+### 🥫 My Pantry
+
+Manage the ingredients available in your pantry.
+
+Users can:
+
+- Add ingredients manually
+- Scan their pantry using AI
+- Keep track of available ingredients
+- Discover recipes based on what they already have
+- Reduce food waste
+
+### 🤖 AI Pantry Scanning
+
+Use AI-powered pantry scanning to identify ingredients and add them to your virtual pantry.
+
+This helps users quickly understand what ingredients they have available and discover suitable recipes.
+
+### 🎙️ AI Voice Cooking Assistant
+
+Nectar includes an AI-powered voice cooking assistant designed for hands-free cooking.
+
+The assistant can guide users through recipes step by step while they cook, allowing them to interact with the cooking instructions using voice commands.
+
+This creates a hands-free cooking mode that makes following recipes easier and more convenient.
+
+### 🥗 Nutrition Index
+
+Understand the nutritional value of meals through a nutrition index designed to provide useful insights into recipes and food choices.
+
+### 🛒 Smart Shopping List
+
+Generate a shopping list based on planned meals and required ingredients.
+
+This helps users organize their grocery shopping and avoid forgetting essential ingredients.
+
+### 👤 Personal Recipe Collection
+
+Users can save their favorite recipes and access them anytime through their personal recipe collection.
+
+### 💳 Subscription Plans
+
+Nectar supports different user plans, including a Free Plan and Pro features.
+
+Pro features provide access to enhanced functionality such as unlimited pantry scans.
 
 ## 🛠️ Technologies Used
 
@@ -34,15 +75,6 @@ Designed to provide a smooth experience across different screen sizes and device
 - JavaScript
 - Tailwind CSS
 - AI-powered features
-- Voice interaction technologies
+- Voice interaction technology
+- AI-based pantry scanning
 
-## 📁 Project Structure
-
-```text
-nectar/
-├── app/
-├── public/
-├── components/
-├── package.json
-├── package-lock.json
-└── README.md
