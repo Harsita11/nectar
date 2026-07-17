@@ -1,0 +1,34 @@
+﻿{
+  "kind": "collectionType",
+  "collectionName": "meal_plans",
+  "info": {
+    "singularName": "meal-plan",
+    "pluralName": "meal-plans",
+    "displayName": "MealPlan"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "mealType": {
+      "type": "enumeration",
+      "enum": ["breakfast", "lunch", "dinner", "snack"],
+      "required": true
+    },
+    "recipe": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::recipe.recipe"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
